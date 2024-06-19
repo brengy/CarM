@@ -15,7 +15,7 @@ body, html {
 .container {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 60%;
 }
 
 .panel {
@@ -23,16 +23,16 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 15px;
+    padding: 25px;
     background-color: #203354;
     border-radius: 10px;
-    margin: 10px;
+    margin: 20px;
     animation: fadeInUp 1s ease-out; /* Initial fade-in animation */
 }
 
 .monitor-button {
-   width: 60px;
-    padding: 5px;
+    width: 100px;
+    padding: 10px;
     background-color: #444;
     color: #fff;
     border: none;
@@ -45,15 +45,15 @@ body, html {
 }
 
 .monitor-label {
-    margin-top: 2.67%;
-    font-size: 4.8%;
+    margin-top: 10px;
+    font-size: 18px;
 }
 
 /* Animation keyframes */
 @keyframes fadeInUp {
     0% {
         opacity: 0;
-        transform: translateY(5.33%);
+        transform: translateY(20px);
     }
     100% {
         opacity: 1;
@@ -91,7 +91,7 @@ body, html {
     display: flex;
     justify-content: space-around;
     background-color: #333;
-    padding: 2.67%;
+    padding: 10px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -102,7 +102,7 @@ body, html {
     background-color: #444;
     color: #fff;
     border: none;
-    padding: 2.67% 5.33%;
+    padding: 10px 20px;
     cursor: pointer;
 }
 
@@ -111,13 +111,13 @@ body, html {
 }
 
 #messages {
-    margin-top: 5.33%;
+    margin-top: 20px;
     width: 60%;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 2.67%;
-    border-radius: 1.33%;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .message {
-    margin: 1.33% 0;
+    margin: 5px 0;
 }

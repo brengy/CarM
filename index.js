@@ -16,5 +16,5 @@ document.getElementById('broButton').addEventListener('click', function() {
 
 document.getElementById('conButton').addEventListener('click', function() {
     playButtonSound('conButtonSound');
-    window.location.href = 'Bindex.html';
+    window.location.href = 'UBindex.html';
 });

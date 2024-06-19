@@ -1,6 +1,6 @@
 
 body, html {
-    background: url('tnt.jpg') no-repeat center center fixed;
+    background: url('tt.jpg') no-repeat center center fixed;
     animation: zoomWave 5s infinite, fadeInUp 1s ease-out 0.6s; /* Zoom wave animation for the entire body */
     background-size: cover;
     height: 100%;

@@ -23,21 +23,21 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 6.67%;
+    padding: 15px;
     background-color: #203354;
-    border-radius: 2.67%;
-    margin: 5.33%;
+    border-radius: 10px;
+    margin: 10px;
     animation: fadeInUp 1s ease-out; /* Initial fade-in animation */
 }
 
 .monitor-button {
-    width: 26.67%;
-    padding: 2.67%;
+   width: 60px;
+    padding: 5px;
     background-color: #444;
     color: #fff;
     border: none;
     cursor: pointer;
-    margin-bottom: 2.67%;
+    margin-bottom: 10px;
 }
 
 .monitor-button:hover {

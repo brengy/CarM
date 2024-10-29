@@ -1,26 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>علم الأهلي يهفهف</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f3f3f3;
+    }
+
+    .flag {
+      width: 200px;
+      overflow: hidden;
+      position: relative;
+      display: inline-block;
+    }
+
+    .flag img {
+      width: 100%;
+      display: block;
+      animation: wave 2s ease-in-out infinite;
+      transform-origin: left center;
+    }
+
+    @keyframes wave {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(2deg); }
+      50% { transform: rotate(0deg); }
+      75% { transform: rotate(-2deg); }
+      100% { transform: rotate(0deg); }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="panel">
-            <button id="broButton" class="animated-button">BROCHURE</button>
-        </div>
-        <div class="panel">
-            <button id="conButton" class="animated-button">CONTROL</button>
-        </div>
-    </div>
-
-    <!-- Add the audio elements -->
-    <audio id="pageLoadSound"  src="dd.mp3"></audio>
-    <audio id="broButtonSound" src="dd.mp3"></audio>
-    <audio id="conButtonSound" src="dd.mp3"></audio>
-
-    <script src="index.js"></script>
+  <div class="flag">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Al_Ahly_SC_logo.png" alt="علم الأهلي">
+  </div>
 </body>
 </html>
